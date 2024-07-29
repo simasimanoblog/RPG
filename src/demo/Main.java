@@ -28,7 +28,6 @@ public class Main {
 
 		// 人間グループのリストを空で生成
 		List<Human> humans = new ArrayList<>();
-		// List<Human> humans = new ArrayList<>(Arrays.asList(Brave, Fighter, Wizard));
 
 		// 勇者、戦士、魔法使いを人間グループのリストに追加
 		humans.add(Brave);
