@@ -14,8 +14,6 @@ import monsters.Slime;
 import utils.Dice;
 
 public class Main {
-	private static Human selectHuman;
-	private static Monster selectMonster;
 
 	public static void main(String[] args) {
 
@@ -49,6 +47,10 @@ public class Main {
 
 		// 現在の各グループの状態を一覧表示
 		showGroupInfos(humans, monsters);
+
+		// ローカル変数
+		Human selectHuman;
+		Monster selectMonster;
 
 		// 第何回戦かを示すカウンター変数
 		int count = 1;
